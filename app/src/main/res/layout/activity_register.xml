@@ -1,0 +1,80 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/mybackground"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:drawableLeft="@drawable/user"
+        android:hint="Enter your name"
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:hint="Enter your address"
+        android:drawableLeft="@drawable/address"
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your phone number"
+        android:drawableLeft="@drawable/phone"
+        android:id="@+id/Phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your Email id"
+        android:drawableLeft="@drawable/email"
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your username"
+        android:drawableLeft="@drawable/usernamee"
+        android:layout_margin="5dp"
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter your password"
+        android:drawableLeft="@drawable/pass"
+        android:layout_margin="5dp"
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Reenter the password"
+        android:drawableLeft="@drawable/repass"
+        android:layout_margin="5dp"
+        android:id="@+id/con_psd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Register"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/Register"
+        android:textColor="#FBFBF3"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Back to login"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/back_to_login"
+        android:textColor="#FFFFFB"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
